@@ -1,170 +1,88 @@
-#container {
- width:959px;
- position:relative;
- min-height: 100%;
- height: auto !important;
- height: 100%;
- margin: 0 auto -4em;
-}
-
-// Support of Internet Explore
-#container {
-width:960px;
-margin: 0 auto;
-text-align: left
-}
-
-#download {
- position: relative;
- margin-top:-5px;
- margin-left: px;
-}
-#logo {
- position: relative;
- margin-top:-60px;
- margin-left:px;
-}
-
-#middletext {
- width:955px;
- height:190px;
- position: relative;
- margin-top:-660px;
- margin-left:20px;
- overflow: auto
-}
-
-#middle {
- position: relative;
- margin-top:9px;
- margin-left:px;
-}
-
-#middle2 {
- position: relative;
- margin-top:-5px;
- margin-left:px;
-}
-
-#meditate {
- position: relative;
- margin-top:-800px;
- margin-left:-600px;
-}
-
-#footer {
- position: relative;
- margin-top:-5px;
- margin-left:px;
-}
-
-#downtext {
- position: relative;
- margin-top:125px;
- margin-left:15px;
-}
-
-
-textarea {
-    resize: none;
-	width:958px;
-	height:195px;
-	background-color:transparent;
-	color:white;
-	border-width:1px;
-	overflow:auto
-}
-
-
-
-#nav  {
- margin-left:80px;
- margin-top:-55px;
- float: center;
- text-transform:;
- position:Relative;
- font-size:14px;
- color:black;
-}
-
-a.downtext:link { color: red;}
-a.greenhilite:visited { color: purple; }
-a.downtext:hover { color: white; }
-a.downtext:link {text-decoration: none}
-
+/* Body (S) , applies to the whole site */
 body {
-  margin:0px 0px;
-  padding: 100px 0px 100px 200px;
-  margin-left:-300px;
-  margin-top:10px;
+	background-color:#;
 }
 
-#rolling-nav {
-  font:normal 12px 'Trebuchet MS',Arial,Sans-Serif;
-  color:white;
-  text-transform:uppercase;
-  margin-top:-66px;
-  margin-left:155px;
+/* Wrapper, keeps the site in place */
+body {
+text-align : center ;
 }
 
-#rolling-nav ul {
-  height:50px;
-  margin:0px 0px;
-  padding:0px 0px;
-  overflow:hidden;
-    width:1000px;
+.wrapper {
+	width: 960px;
+	position:relative;
+	min-height: 100%;
+	height: auto !important;
+	height: 100%;
+	margin: 0 auto -4em;
 }
 
-#rolling-nav li {
-  float:left;
-  display:inline;
-  list-style:none;
-  margin:0px 0px;
-  padding:0px 0px;
+
+
+
+#header  {
+width:102%;
+height:72px;
+margin-left:-8px;
+margin-top:-8px;
+background-image:url('images/header.png');
+background-repeat:repeat-x;
 }
 
-#rolling-nav a,
-#rolling-nav a:before {
-  display:block;
-  margin:0px 0px;
-  padding:0px 30px;
-  line-height:50px;
-  color:white;
-  text-decoration:none;
-  background-color:#3f6082;
-  background-image:-webkit-linear-gradient(top, #900 0%, #6A0808 50%, #620303 50%, #6A0808 100%);
-  background-image:-moz-linear-gradient(top, #900 0%, #6A0808 50%, #620303 50%, #6A0808 100%);
-  background-image:-ms-linear-gradient(top, #900 0%, #6A0808 50%, #620303 50%, #6A0808 100%);
-  background-image:-o-linear-gradient(top, #900 0%, #6A0808 50%, #620303 50%, #6A0808 100%);
-  background-image:linear-gradient(top, #900 0%, #6A0808 50%, #620303 50%, #6A0808 100%);
-  -webkit-box-shadow:inset 0px 1px 0px rgba(255,255,255,0.1);
-  -moz-box-shadow:inset 0px 1px 0px rgba(255,255,255,0.1);
-  box-shadow:inset 0px 1px 0px rgba(255,255,255,0.1);
-  position:relative;
-  -webkit-transition:all 0.3s ease-in-out;
-  -moz-transition:all 0.3s ease-in-out;
-  -ms-transition:all 0.3s ease-in-out;
-  -o-transition:all 0.3s ease-in-out;
-  transition:all 0.3s ease-in-out;
+#slider {
+width:102%;
+height:400px;
+margin-left:-8px;
+background-image:url('images/slider.png');
+background-repeat:repeat-x;
 }
 
-#rolling-nav a:before {
-  content:attr(data-clone);
-  position:absolute;
-  top:100%;
-  left:0px;
-  display:block;
-  background-color:white;
-  background-image:-webkit-linear-gradient(top, #ddd, white);
-  background-image:-moz-linear-gradient(top, #ddd, white);
-  background-image:-ms-linear-gradient(top, #ddd, white);
-  background-image:-o-linear-gradient(top, #ddd, white);
-  background-image:linear-gradient(top, #ddd, white);
-  border-top:2px solid rgba(0,0,0,0.2);
-  color:#3f6082;
+#logo {
+ float: left;
+ margin-top:-70px;
 }
 
-#rolling-nav a:hover {
-  margin-top:-50px;
-  margin-bottom:1px;
+#texting {
+float: left;
+margin-top:-300px;
+
 }
+
+#content {
+width:101%;
+height:400px;
+float: left;
+margin-left:px;
+background-image:url('images/content.png');
+background-repeat:repeat-x;
+}
+
+
+#render {
+ float:right
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
