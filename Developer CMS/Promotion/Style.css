@@ -1,3 +1,10 @@
+body {
+  margin:0px 0px;
+  padding: 100px 0px 100px 200px;
+  margin-left:-300px;
+  margin-top:10px;
+}
+
 #container {
  width:959px;
  position:relative;
@@ -7,164 +14,40 @@
  margin: 0 auto -4em;
 }
 
-// Support of Internet Explore
+// Support of Internet Explorer
 #container {
 width:960px;
 margin: 0 auto;
 text-align: left
 }
 
-#download {
- position: relative;
- margin-top:-5px;
- margin-left: px;
-}
 #logo {
  position: relative;
  margin-top:-110px;
  margin-left:-431px;
 }
 
-#middletext {
- width:955px;
- height:190px;
- position: relative;
- margin-top:-660px;
- margin-left:20px;
- overflow: auto
-}
-
 #middle {
  position: relative;
- margin-top:9px;
- margin-left:px;
+ margin-left:-431px;
+ margin-top:-1px;
 }
 
-#middle2 {
+#logos {
  position: relative;
- margin-top:-5px;
- margin-left:px;
+ margin-top:-457px;
+ margin-left:-300px;
 }
 
-#meditate {
- position: relative;
- margin-top:-800px;
- margin-left:-600px;
+#preview {
+ position: absolute;
+ margin-top:159px;
+ margin-left:105px;
 }
 
-#footer {
- position: relative;
- margin-top:-5px;
- margin-left:px;
+#previewtext {
+ position: absolute;
+ margin-top:80px;
+ margin-left:100px;
 }
 
-#downtext {
- position: relative;
- margin-top:125px;
- margin-left:15px;
-}
-
-
-textarea {
-    resize: none;
-	width:958px;
-	height:195px;
-	background-color:transparent;
-	color:white;
-	border-width:1px;
-	overflow:auto
-}
-
-
-
-#nav  {
- margin-left:80px;
- margin-top:-55px;
- float: center;
- text-transform:;
- position:Relative;
- font-size:14px;
- color:black;
-}
-
-a.downtext:link { color: red;}
-a.greenhilite:visited { color: purple; }
-a.downtext:hover { color: white; }
-a.downtext:link {text-decoration: none}
-
-body {
-  margin:0px 0px;
-  padding: 100px 0px 100px 200px;
-  margin-left:-300px;
-  margin-top:10px;
-}
-
-#rolling-nav {
-  font:normal 12px 'Trebuchet MS',Arial,Sans-Serif;
-  color:white;
-  text-transform:uppercase;
-  margin-top:-66px;
-  margin-left:155px;
-}
-
-#rolling-nav ul {
-  height:50px;
-  margin:0px 0px;
-  padding:0px 0px;
-  overflow:hidden;
-    width:1000px;
-}
-
-#rolling-nav li {
-  float:left;
-  display:inline;
-  list-style:none;
-  margin:0px 0px;
-  padding:0px 0px;
-}
-
-#rolling-nav a,
-#rolling-nav a:before {
-  display:block;
-  margin:0px 0px;
-  padding:0px 30px;
-  line-height:50px;
-  color:white;
-  text-decoration:none;
-  background-color:#3f6082;
-  background-image:-webkit-linear-gradient(top, #900 0%, #6A0808 50%, #620303 50%, #6A0808 100%);
-  background-image:-moz-linear-gradient(top, #900 0%, #6A0808 50%, #620303 50%, #6A0808 100%);
-  background-image:-ms-linear-gradient(top, #900 0%, #6A0808 50%, #620303 50%, #6A0808 100%);
-  background-image:-o-linear-gradient(top, #900 0%, #6A0808 50%, #620303 50%, #6A0808 100%);
-  background-image:linear-gradient(top, #900 0%, #6A0808 50%, #620303 50%, #6A0808 100%);
-  -webkit-box-shadow:inset 0px 1px 0px rgba(255,255,255,0.1);
-  -moz-box-shadow:inset 0px 1px 0px rgba(255,255,255,0.1);
-  box-shadow:inset 0px 1px 0px rgba(255,255,255,0.1);
-  position:relative;
-  -webkit-transition:all 0.3s ease-in-out;
-  -moz-transition:all 0.3s ease-in-out;
-  -ms-transition:all 0.3s ease-in-out;
-  -o-transition:all 0.3s ease-in-out;
-  transition:all 0.3s ease-in-out;
-}
-
-#rolling-nav a:before {
-  content:attr(data-clone);
-  position:absolute;
-  top:100%;
-  left:0px;
-  display:block;
-  background-color:white;
-  background-image:-webkit-linear-gradient(top, #ddd, white);
-  background-image:-moz-linear-gradient(top, #ddd, white);
-  background-image:-ms-linear-gradient(top, #ddd, white);
-  background-image:-o-linear-gradient(top, #ddd, white);
-  background-image:linear-gradient(top, #ddd, white);
-  border-top:2px solid rgba(0,0,0,0.2);
-  color:#3f6082;
-}
-
-#rolling-nav a:hover {
-  margin-top:-50px;
-  margin-bottom:1px;
-}
